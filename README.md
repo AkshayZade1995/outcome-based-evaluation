@@ -1,6 +1,6 @@
 # Outcome Based Evaluation
 Intranet Web Portal to handle college documentation and Correlation Matrix
-### Following Application is private for college purpose basic schema of doc generation and Correlation matrix is been published
+### Following Web Portal is private for college purpose basic schema of doc generation and Correlation matrix is been published. Not Entire Project
 
 ## Description
 Purpose of this project was to easy task of documentation work. such as Teachers need to prepare documents with same structure as follows
