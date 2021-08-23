@@ -16,7 +16,8 @@ To overcome the following points the project was held. which reduce the teachers
 ## Screens 
 1. Php to docs\
 \
-![1](https://user-images.githubusercontent.com/61224114/130425942-52f46835-39d9-4b03-b875-8e7cf70c4887.JPG)
+![1](https://user-images.githubusercontent.com/61224114/130428225-ab106a90-346c-4fa2-928d-22ace3ecec61.JPG)
+
 
 2. Downloading doc file\
 \
