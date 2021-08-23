@@ -22,7 +22,6 @@
 			$table = "";
 			echo "<p><center><h3><u>Outcome Based Evaluation</u></h3></center></p>";
 			echo "<p><center><h3><u>PHASE-I</u></h3></center></p>";
-			echo "<p><img src='https://user-images.githubusercontent.com/61224114/130384321-3d3e2abc-482f-466f-9f70-4bb0f4a97ada.JPG'></p>";
 			
 			$phase1Table = "";
 			$phase1Table .="<table border='1' align='center' width='100%' cellpadding='10' cellspacing='0'>";
@@ -53,7 +52,7 @@
 			echo $gradingScaleTable;
 
 			echo "<h2 align='center'>Course Outcome</h2>";
-			$table .= "<table border='1' align='center' width='100%' cellpadding='10' cellspacing='0'><tr><th>Sr No.</th><th>Name</th><th>Course Outcome 1</th><th>Course Outcome 2</th></tr>";
+			$table .= "<table border='1' align='center' width='100%' cellpadding='10' cellspacing='0'><tr><th>Sr No.</th><th><strong>Outcome Name</strong></th><th><strong>Description</strong></th><th><strong>Modules</strong></th></tr>";
 			$sr = 1;
 			for($i=0;$i<count($Co);$i++)
 			{
@@ -128,7 +127,7 @@
 				<th><input type="text" name="lTP" value=""><br></th>
 			</tr>
 		</table>
-		<p align="left" ><u>GRADING SCALE :</u></p>
+		<p><center><h3>GRADING SCALE</h3></center></p>
 		<table >
 			<tr >
 				<th colspan=3><center>SCORE</center></th>
@@ -207,12 +206,19 @@
 		<input type="button" value="Add Row" onclick="addRow('dataTable')" />
 		<input type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
 		<br>
+		<table width="350px" border="1">
+			<th>
+				<td><strong>Outcome Name</strong></td>
+				<td><strong>Description</strong></td>
+				<td><strong>Modules</strong></td>
+			</th>
+		</table>
 		<table id="dataTable" width="350px" border="1">
 			<tr>
-				<td><input type="checkbox" name="chk"/></td>
-				<td><input type="text" name="Co[]"/></td>
-				<td><input type="text" name="CourseOutcomes1[]"/></td>
-				<td><input type="text" name="CourseOutcomes2[]"/></td>
+				<td><input type="checkbox" name="chk" /></td>
+				<td><input type="text" name="Co[]" style="width : 100%;"/></td>
+				<td><input type="text" name="CourseOutcomes1[]" style="width : 100%;"/></td>
+				<td><input type="text" name="CourseOutcomes2[]" style="width : 100%;" /></td>
 			</tr>
 		</table><br>
 		<input name="submit" type="submit" value="GENERATE WORD FILE"/>
